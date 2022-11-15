@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(222, 217, 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  background-color: white;
+  border: 1px solid;
+  box-shadow: black;
+  border-radius: 12px;
+  margin-bottom: 120px;
+  flex-direction: column;
+}
+
+.modalbody {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-around;
+}

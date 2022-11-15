@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-around;
+}

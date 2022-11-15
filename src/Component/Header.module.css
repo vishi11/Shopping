@@ -1,0 +1,56 @@
+.nav_header {
+  display: flex;
+  background-color: brown;
+  color: white;
+  height: 30vh;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 38%,
+    84% 25%,
+    68% 71%,
+    51% 25%,
+    33% 71%,
+    17% 26%,
+    0 37%
+  );
+
+  font-size: 40px;
+  justify-content: center;
+}
+button {
+  margin-top: -7%;
+  display: flex;
+  width: 8%;
+  height: 10%;
+  display: flex;
+  justify-items: center;
+  position: relative;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.imgbutton {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+}
+.count {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  display: block;
+  margin-top: -0.8rem;
+  border: 2px solid black;
+  border-radius: 40px;
+  /* margin-left: 9%;
+  float: left; */
+  top: 8px;
+  right: 0;
+  background-color: red;
+  border: 2px solid white;
+  color: white;
+}
